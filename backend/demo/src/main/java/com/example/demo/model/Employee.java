@@ -3,7 +3,6 @@ package com.example.demo.model;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.stereotype.Indexed;
 
-import jakarta.annotation.Generated;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,6 +16,7 @@ import javax.persistence.Column;
 @Entity
 @Table(name ="employees")
 public class Employee {
+    
     @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id; 
