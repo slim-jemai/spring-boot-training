@@ -1,7 +1,5 @@
 package com.example.demo.model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.stereotype.Indexed;
 
 
 import javax.persistence.Entity;
